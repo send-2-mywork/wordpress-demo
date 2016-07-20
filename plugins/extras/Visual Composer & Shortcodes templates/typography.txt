@@ -1,0 +1,86 @@
+[headline]BLOCKQUOTE[/headline]
+
+Maecenas dolor est, interdum a euismod eu, accumsan posuere nisl. Nam sed iaculis massa. Sed nisl lectus, tempor sed euismod quis, sollicitudin nec est. Suspendisse dignissim bibendum tempor. Nam erat felis, commodo sed semper commodo vel mauris suspendisse dignissim bibendum tempus.
+<blockquote>Mauris aliquet ultricies ante, non faucibus ante gravida sed. Sed ultrices pellentesque purus, vulputate volutpat ipsum hendrerit sed neque sed sapien rutrum laoreet justo ultrices. In pellentesque lorem condimentum dui morbi pulvinar dui non quam pretium ut lacinia tortor.</blockquote>
+In ut odio libero, at vulputate urna. Nulla tristique mi a massa convallis cursus. Nulla eu mi magna. Etiam suscipit commodo gravida. Cras suscipit, quam vitae adipiscing faucibus, risus nibh laoreet odio, a porttitor metus eros ut enim. Morbi augue velit, tempus mattis dignissim nec, porta sed risus. Donec eget magna eu lorem tristique pellentesque eget eu dui. Fusce lacinia tempor malesuada. Ut lacus sapien, placerat a ornare nec, elementum sit amet felis. Maecenas pretium hendrerit fermentum.
+
+[headline margintop=20]DROPCAP[/headline] [column place="first" width="eight"] [dropcap]D[/dropcap] onec varius condimentum augue, nec mollis risus egestas sit amet. Etiam elit est, tincidunt non tincidunt sit amet, mollis vitae orci. Suspendisse sit amet turpis quam. Sed varius magna nec felis faucibus blandit. Quisque at gravida ante. Phasellus sagittis aliquam sodales. Donec a tortor vitae dolor sagittis aliquam eu id lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus ac dapibus nisl. Proin in tellus non velit sagittis viverra vel sit amet dui. [/column] [column place="first" width="eight"] [dropcap type="full"]D[/dropcap] onec varius condimentum augue, nec mollis risus egestas sit amet. Etiam elit est, tincidunt non tincidunt sit amet, mollis vitae orci. Suspendisse sit amet turpis quam. Sed varius magna nec felis faucibus blandit. Quisque at gravida ante. Phasellus sagittis aliquam sodales. Donec a tortor vitae dolor sagittis aliquam eu id lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus ac dapibus nisl. Proin in tellus non velit sagittis viverra vel sit amet dui. [/column]
+
+[headline margintop=36 marginbottom=0]LIGHTBOX[/headline]
+[column place="first" width="two"]<strong> Single Image <a class="mfp-image" href="http://trizzy.purethemes.wpengine.com/files/2014/08/lightbox-sample-01a.jpg"><img class="alignnone size-full wp-image-1383" src="http://trizzy.purethemes.wpengine.com/files/2014/08/lightbox-sample-01b.jpg" alt="lightbox-sample-01a" /></a> </strong> [/column] [column place="none" width="five"] <strong> Images Gallery </strong>
+<a class="mfp-gallery margin-bottom-5" href="http://trizzy.purethemes.wpengine.com/files/2014/08/lightbox-sample-02a.jpg"><img class="alignleft  margin-right-5" src="http://trizzy.purethemes.wpengine.com/files/2014/08/lightbox-sample-02b.jpg" alt="lightbox-sample-02a" /></a> <a class="mfp-gallery margin-bottom-5" href="http://trizzy.purethemes.wpengine.com/files/2014/08/lightbox-sample-03a.jpg"><img class="alignleft margin-right-5" src="http://trizzy.purethemes.wpengine.com/files/2014/08/lightbox-sample-03b.jpg" alt="lightbox-sample-03a" /></a> <a class="mfp-gallery margin-bottom-5" href="http://trizzy.purethemes.wpengine.com/files/2014/08/lightbox-sample-04a.jpg"><img class="alignleft  margin-right-5" src="http://trizzy.purethemes.wpengine.com/files/2014/08/lightbox-sample-04b.jpg" alt="lightbox-sample-04b" /></a> [/column] [column place="none" width="three"]<strong> Popup with content </strong> [popup] Donec fermentum, quam et dapibus facilisis, diam massa mollis lorem, vitae suscipit purus mi ac enim. Vestibulum sed massa vestibulum, consequat massa nec, pharetra arcu. Aliquam a quam et velit dapibus posuere eu in erat. [/popup] [/column] [column place="last" width="four"]<strong>Video and Google Maps </strong>
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=keDneypw3HY">Open YouTube Video</a>
+
+<a class="popup-vimeo" href="https://vimeo.com/45830194">Open Vimeo Video</a>
+
+<a class="popup-gmaps" href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom">Open Google Map</a>
+[/column]
+
+[headline marginbottom=15 margintop=20]Highlights[/headline]
+
+Aliquam sed leo leo, at aliquam felis. Sed sed purus ac [highlight style="gray"]lacus faucibus placerat[/highlight]. Donec hendrerit dapibus justo, bibendum iaculis sem vehicula sed. Fusce dolor orci, eleifend quis dignissim non, tristique sit amet lorem ipsum dolor sit amet elit. Maecenas semper venenatis felis eu [highlight style="color"]hendrerit in tincidunt[/highlight] vehicula. Cras dictum mi nec dolor justo lacinia. Nunc at sem lectus, quis [highlight style="light"]aliquam metus[/highlight]. Nam sagittis est at erat tincidunt ut porttitor eros viverra
+
+[headline marginbottom=0 margintop=20]TOOLTIPS[/headline]
+
+Maecenas dolor est, interdum a euismod eu,[tooltip title="First Tooltip" ]tooltip from top[/tooltip] nisl. Nam sed iaculis massa. Sed nisl lectus, tempor sed euismod quis, sollicitudin est [tooltip title="Second Tooltip" side="right"]tooltip from right[/tooltip] dignissim bibendum [tooltip title="Third Tooltip" side="left"]tooltip from left[/tooltip] nam erat felis, commodo sed semper commodo vel mauris [tooltip title="Third Tooltip" side="bottom"]tooltip from bottom bibendum tempus.
+
+[headline margintop=15 marginbottom=0]BUTTONS[/headline]
+[button color="color"]Unlimited colors[/button] [button color="color" icon="send" iconcolor="black"]Submit[/button] [button color="gray"]Flexible width[/button] [button color="gray" icon="folder-open"]Download file[/button] [button color="dark"]Dark Button[/button] [button color="dark" icon="shopping-cart"]Purchase Now[/button]
+
+[headline margintop=15 marginbottom=0]LIST STYLES[/headline]
+[column place="first" width="four"] [list style="1" color="yes"]
+<ul>
+	<li>Lorem ipsum dolor sit amet</li>
+	<li>Consectetur adipiscing elit</li>
+	<li>Integer molestie lorem at massa</li>
+	<li>Facilisis in pretium nisl aliquet</li>
+</ul>
+[/list][/column] [column place="none" width="four"] [list style="2" color="no"]
+<ul>
+	<li>Lorem ipsum dolor sit amet</li>
+	<li>Consectetur adipiscing elit</li>
+	<li>Integer molestie lorem at massa</li>
+	<li>Facilisis in pretium nisl aliquet</li>
+</ul>
+[/list][/column] [column place="none" width="four"] [list style="3" color="no"]
+<ul>
+	<li>Lorem ipsum dolor sit amet</li>
+	<li>Consectetur adipiscing elit</li>
+	<li>Integer molestie lorem at massa</li>
+	<li>Facilisis in pretium nisl aliquet</li>
+</ul>
+[/list][/column] [column place="last" width="four"] [list style="4" color="no"]
+<ul>
+	<li>Lorem ipsum dolor sit amet</li>
+	<li>Consectetur adipiscing elit</li>
+	<li>Integer molestie lorem at massa</li>
+	<li>Facilisis in pretium nisl aliquet</li>
+</ul>
+[/list] [/column]
+
+[headline margintop=15 marginbottom=0]GRID SYSTEM[/headline]
+<div class="example-grid">
+<div class="one column alpha">One</div>
+<div class="fifteen columns omega">Fifteen</div>
+<div class="two columns alpha">Two</div>
+<div class="fourteen columns omega">Fourteen</div>
+<div class="three columns alpha">Three</div>
+<div class="thirteen columns omega">Thirteen</div>
+<div class="four columns alpha">Four</div>
+<div class="twelve columns omega">Twelve</div>
+<div class="five columns alpha">Five</div>
+<div class="eleven columns omega">Eleven</div>
+<div class="six columns alpha">Six</div>
+<div class="ten columns omega">Ten</div>
+<div class="seven columns alpha">Seven</div>
+<div class="nine columns omega">Nine</div>
+<div class="eight columns alpha">Eight</div>
+<div class="eight columns omega">Eight</div>
+<div class="clearfix"></div>
+&nbsp;
+<div class="one-third column alpha">One Third</div>
+<div class="one-third column">One Third</div>
+<div class="one-third column omega">One Third</div>
+<div class="one-third column alpha">One Third</div>
+<div class="two-thirds column omega">Two Thirds</div>
+</div>

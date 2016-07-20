@@ -1,0 +1,1557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Trizzy WordPress Theme Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Documentation of Trizzy WordPress Theme">
+    <meta name="author" content="Purethemes.net">
+
+    <!-- loading the css -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+
+    <style type="text/css">
+    body {
+        padding-bottom: 40px;
+    }
+    section {
+        padding: 60px 0 0 0;
+    }
+    </style>
+
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+          <![endif]-->
+
+          <!-- Various Icons (Favicon, Touch Icon,... -->
+          <link rel="shortcut icon" href="assets/img/favicon.ico">
+          <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+          <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png">
+          <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png">
+
+      </head>
+
+
+
+      <body data-spy="scroll" data-target=".navbar" id="top">
+
+        <!-- ========================= NAVIGATION BAR >> START ========================= -->
+        <div class="navbar navbar-fixed-top navbar-inverse">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
+                    <a class="brand" href="#overview">Trizzy Documentation</a><!-- TIP: Change this for the name of your file -->
+                    <div class="nav-collapse">
+                        <ul class="nav">
+                            <li><a href="#overview">Overview</a></li>
+                            <li class="dropdown">
+                                <a data-toggle="dropdown" class="dropdown-toggle" role="button" href="#" id="drop1">Getting started<b class="caret"></b></a>
+                                <ul aria-labelledby="drop1" role="menu" class="dropdown-menu">
+                                    <li><a href="#getting_started">Getting Started</a></li>
+                                    <li><a href="#getting_started_installation">Installation</a></li>
+                                    <li><a href="#getting_started_activating_theme_options">Activating Theme Options</a></li>
+                                    <li><a href="#getting_started_importing_demo_contet">Importing Demo Contet</a></li>
+                                    <li><a href="#getting_started_setting_up_the_static_homepage">Setting up the static homepage</a></li>
+                                    <li><a href="#getting_started_setting_slider_revo">Setting Revolution Slider</a></li>
+                                    <li><a href="#getting_started_setting_up_the_menu">Setting up the menu</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a data-toggle="dropdown" class="dropdown-toggle" role="button" href="#" id="drop2" href="#creating_content_post_pages_and_portfolio">Creating Content<b class="caret"></b></a>
+                                <ul aria-labelledby="drop2" role="menu" class="dropdown-menu">
+                                    <li><a href="#creating_content_post_pages_and_portfolio_post">Post</a></li>
+                                    <li><a href="#creating_content_post_pages_and_portfolio_pages">Pages</a></li>
+                                    <li><a href="#creating_content_post_pages_and_portfolio_portfolio">Portfolio</a></li>
+                                    <li><a href="#page-builder">Page Builder</a></li>
+                                    <li><a href="#contact_page">Contact Page</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a data-toggle="dropdown" class="dropdown-toggle" role="button" href="#" id="drop3" href="#shortcodes_widgets">Features<b class="caret"></b></a>
+                                <ul  aria-labelledby="drop3" role="menu" class="dropdown-menu">
+                                    <li><a href="#plugins">Plugins</a></li>
+                                    <li><a href="#shortcodes">Shortcodes</a></li>
+                                    <li><a href="#widgets">Widgets</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a data-toggle="dropdown" class="dropdown-toggle" role="button" href="#" id="drop3" href="#shortcodes_widgets">Customization<b class="caret"></b></a>
+                                <ul aria-labelledby="drop3" role="menu" class="dropdown-menu">
+                                    <li><a href="#theme_options">Theme Options</a></li>
+                                    <li><a href="#theme_customizer">Theme Customizer</a></li>
+                                    <li><a href="#translation_and_customization">Translation</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ========================= NAVIGATION BAR >> END ========================= -->
+
+
+
+        <!-- ========================= MAIN CONTAINER >> START ========================= -->
+        <div class="container">
+            <!-- ========================= SECTION: OVERVIEW >> START ========================= -->
+            <section id="overview">
+
+                <div class="hero-unit">
+                    <h1>Trizzy WP Documentation</h1>
+                    <p>Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form here or submit ticket on <a href="http://support.purethemes.net/">support.purethemes.net</a> . Thanks so much! </p>
+                    <div class="row-fluid">
+                        <div class="span3"><a href="http://support.purethemes.net/" class="btn btn-inverse btn-large btn-block">Support Forum</a></div>
+                        <div class="span3"><a href="#changelog" role="button" class="btn btn-success btn-large btn-block" data-toggle="modal">Changelog</a></div>
+                        <div class="span3"><a href="#credits" role="button" class="btn btn-info btn-large btn-block" data-toggle="modal">Credits</a></div>
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <div class="row-fluid">
+                    <div class="span6">
+                        <table width="100%">
+                            <tr>
+                                <td>Author:</td>
+                                <td><a href="http://themeforest.net/user/purethemes/">Purethemes</a></td>
+                            </tr>
+                           <!-- <tr>
+                                <td>Item :</td>
+                                <td><a href="http://themeforest.net/item/nevia-responsive-wordpress-theme/4118819">themeforest.net/item/nevia-responsive-wordpress-theme</a></td>
+                            </tr> -->
+                        </table>
+                    </div>
+                    <div class="span6">
+                        <table width="100%">
+                            <tr>
+                                <td>Created:</td>
+                                <td>26 August 14</td>
+                            </tr>
+                           <tr>
+                                <td>Modified:</td>
+                                <td>24 August 14</td>
+                            </tr>
+                             <tr>
+                                <td>Current Version:</td>
+                                <td>1.0</td>
+                            </tr>
+                            <tr>
+                                <td>Documentation Version</td>
+                                <td>1.0</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <hr>
+
+            </section>
+            <!-- ========================= SECTION: OVERVIEW >> END ========================= -->
+
+            <div class="alert alert-info">
+                <h4>This documentation in latest version is always available on <a href="http://docs.purethemes.net/trizzy">docs.purethemes.net/trizzy</a></h4>
+            </div>
+
+            <!-- ========================= SECTION: MARKUP >> START ========================= -->
+            <section id="getting_started">
+                <div class="page-header">
+                    <h1>Getting started</h1>
+                </div>
+
+                <p>I assume you have your own WordPress installation, so let&#39;s get started!</p>
+                <hr />
+
+                <h3 id="getting_started_installation">Installation</h3>
+                <p>
+                    You can do it in two ways:
+                </p>
+                <ol>
+                    <li>
+                        <h5>FTP Upload:</h5>
+                        <ul>
+                            <li>Unzip the <strong>&ldquo;trizzy.zip&rdquo;</strong></li>
+                            <li>Open up your FTP manager and connect to your hosting</li>
+                            <li>Browse to wp-content/themes</li>
+                            <li>Upload the <strong>trizzy</strong> theme folder.</li>
+                            <li>Log Into WordPress and go to Appearance - Themes</li>
+                            <li>Find the Trizzy and click activate</li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        <h5>WordPress Upload</h5>
+                        <ul>
+                            <li>
+                                <p>
+                                    Download the <strong>&ldquo;Installable WordPress file only&rdquo;</strong>
+                                    you'll find it here
+                                    <img src="images/downloads.jpg" class="img-polaroid" alt="">
+                                </p>
+                            </li>
+                            <li>Navigate to <a class="btn btn-small disabled" href="#"><i class="icon-home"></i></a> Appearance <i class=" icon-chevron-right"></i> Add New Themes <i class=" icon-chevron-right"></i> Upload.</li>
+                            <li>Follow the instructions on the screen,  select the downloaded theme folder (<strong>&ldquo;trizzy-theme.zip&rdquo;</strong>).</li>
+                            <li>Hit <a class="btn btn-mini btn-primary disabled">Install Now</a> and the theme will be uploaded and installed.</li>
+                        </ul>
+
+                    </li>
+                </ol>
+
+                <p>
+                    Once the theme is uploaded, you need to activate it. Go to <a class="btn btn-small disabled" href="#"><i class="icon-home"></i></a> Appearance <i class=" icon-chevron-right"></i> Themes and activate Trizzy.<br><br>
+                    &nbsp;
+                </p>
+                <div class="row">
+                    <div class="span3">
+                        <h5>Plugins installation - step I</h5>
+                        <p>If installation was successful, you'll see a notice about required plugins for Trizzy, to proceed click
+                            <strong>"Begin installing plugins"</strong></p>
+                    </div>
+                    <div class="span9"><img  class="img-polaroid" src="images/installplugins.png" alt=""></div>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="span3">
+                        <h5>Plugins installation - step II</h5>
+                        <p>You'll see a list of plugins, select all and choose Install, if everything will go OK, you'll be moved to the Plugins menu in wp-admin, all new plugins should be activated</p>
+                        <p>It might happen that you'll encounter error, in that case install plugins one by one.</p>
+                        <p>The most important plugins are <strong>Revolution Slider</strong> and <strong>WPBakery Visual Composer</strong>. <strong>MailChimp Widget</strong> is needed for a newsletter widget, and <strong>WooCommerce</strong> is needed if you wish to setup shop</p>
+                        <p>If you installed required plugins and don't need anything else, just click <strong>Dismiss this notice</strong></p>
+                    </div>
+                    <div class="span9"><img  class="img-polaroid" src="images/installplugins2.png" alt=""></div>
+                </div>
+
+                <hr />
+                <div class="row">
+                    <div class="span3">
+                        <div class="page-header"><h3 id="getting_started_activating_theme_options">Activating Theme Options</h3></div>
+                        <p>
+                            After activating the theme, you will notice under <strong>Appearance</strong> menu new sub-menu <strong>Theme Options</strong>. You&#39;ll find there <strong>Theme Options Panel</strong>, from where you can do a lot of cool stuff. Every section of <strong>Theme Options Panel</strong> will be described later.
+                        </p>
+
+                    </div>
+                    <div class="span9"><p><img class="img-polaroid" src="images/themeoptions.png" /> <hr/></p></div>
+                </div>
+
+                <p>Now open this Options Panel and hit <a class="btn btn-mini btn-primary disabled">Save button</a> - it will set some options for the start.</p>
+
+
+                <div class="page-header"><h3 id="getting_started_importing_demo_contet">Importing Demo Content</h3></div>
+                <p>
+                    If you want to have the same content on your website as Live Preview of Trizzy theme, you&#39;ll need to import demo content. To do that please go to <a class="btn btn-small disabled" href="#"><i class="icon-home"></i></a> Tools <i class=" icon-chevron-right"></i> Import <i class=" icon-chevron-right"></i> WordPress, install plugin you&#39;ll see and than select file &quot;extras/import.xml&quot;.
+                    You'll find it in <strong>"All files & documentation"</strong> <br/>
+                </p>
+                <img src="images/allfiles.jpg" class="img-polaroid" alt="">
+                <p>Just download and extract this file, you'll find the <strong>"extras"</strong> inside</p>
+                <p>
+                    If you don't want to import whole data, in <strong>"extras/layouts"</strong> you'll find txt files with code from Live Preview. You can choose for example <em>home.txt</em>, copy whole content of that file, than create new home page on your WordPress, <b>paste it in Text view (the right top tab over Post/page Editor)</b>, and start working on your page based on this layout.
+                </p>
+                <p class="text-info"><span class="label label-info">Notice</span>
+                    All photos included with import file are just plain gray color, as they are copyrighted files purchased on PhotoDune. If you want to use them, list of links is at the end of this documentation.
+                </p>
+                <p>
+                    If your import was successful, please go to <a class="btn btn-small disabled" href="#"><i class="icon-home"></i></a>
+                    Appearance <i class=" icon-chevron-right"></i> Menus and in <strong>Manage Locations</strong> and for 'Primary Menu' choose "Menu", than save.
+                </p>
+
+                <div class="page-header">
+                    <h3 id="getting_started_setting_up_the_static_homepage">Setting up the static homepage</h3>
+                </div>
+                <div class="row">
+                    <div class="span5">
+                <ol>
+                    <li><p>If you have imported content from demo, you can skip that paragraph and go straight to number 2.<br/>
+                    First you have to create a basic page, and select page template named &quot;Home Page Template&quot;. Now you can fill it with your content and publish. Next, create another basic page with no content and default template, name it Blog (you can use different names).
+                    </p></li>
+                    <li><p>
+                        Go to <a class="btn btn-small disabled" href="#"><i class="icon-home"></i></a> Settings <i class=" icon-chevron-right"></i> Reading and in the <strong>Front page displays</strong> choose <strong>A static page</strong>, then select page named <strong>Home</strong>. <br />For blog page you can select your page named Blog. Click <a class="btn btn-mini btn-primary disabled">Save Changes</a>
+                    </p></li>
+                </ol>
+                </div>
+                <div class="span7">
+                    <p><img src="images/09.png" class="img-polaroid"/></p>
+
+                </div>
+            </div>
+            <p>
+                Next, you should setup your permalinks to look pretty. You can go to <a class="btn btn-small disabled" href="#"><i class="icon-home"></i></a> Settings <i class=" icon-chevron-right"></i> Permalinks, choose the Custom Structure, and use this:<code> /%category%/%postname%/</code>
+            </p>
+<!-- revolution -->
+                <section id="revolution_slider">
+                    <div class="page-header"><h3 id="getting_started_setting_slider_revo">Revolution Slider</h3></div>
+                    <p>
+                        You can find Revolution Slider&nbsp; at the bottom of the WordPress Menu.
+                    </p>
+                    <p>
+                        After pressing the <a class="btn btn-mini btn-primary disabled">Create New Slider</a> button you will see a form where you are need to enter a <strong>Slider Title</strong>  and a Slider Alias (a slug that is used to display the Slider in this theme, try to keep it simple, no spaces and special chars). Set all the setting like on image below.
+                    </p>
+                    <p><img src="images/revo.png" class="img-polaroid"/></p>
+
+                    <p>Detailed instruction from RevoSlider is available in <strong>extras</strong> and also online <a href="http://kb.wpbakery.com/index.php?title=Visual_Composer">Visual Composer KnowledgeBase</a></p>
+                    <p>It's possible to import sliders from demo, you'll also find them in <strong>extras</strong></p>
+
+                    <div class="page-header"><h4>Slides</h4></div>
+
+                    <div class="row">
+                        <div class="span6">
+                            <p>
+                                The next step is creating/editing slides. You get there by just clicking on <a class="btn btn-mini btn-primary disabled">Edit Slides</a> in the Slider Form window.
+                            </p>
+                            <p>
+                                Just press "New Slide" and the native WP Media Upload dialog window will appear. Choose or Upload the slide's background image, choose "Full Size" and then "Insert Into Post"
+                            </p>
+                            <p>
+                                Use the arrow handles on the right side to change the slides position in the slider (top to bottom = first to last slide to be shown) or delete it with the "Delete" button.
+                            </p>
+                            <p>The "Edit Slide" leads you to the next chapter "Slide".</p>
+                        </div>
+                        <div class="span6">
+                            <p><img src="images/image_6.png" class="img-polaroid"></p>
+                        </div>
+
+                    </div>
+                    <div class="page-header"><h4>Slide & Layers</h4></div>
+                    <p>
+                        In the <a class="btn btn-mini btn-primary disabled">Edit Slide</a> view you see the heart of our plugin. The drag&amp;drop Caption editor.
+                    </p>
+                    <p>
+                        But first please note that you have another chance here to change the background image with the &quot;Change Image&quot; button.
+                    </p>
+                    <p>
+                        To create a Layer (Caption, Image or Video) press the button &quot;Add Layer&quot; or &quot;Add Layer: Image&quot;. In case of a text layer a basic layer will be created you can use the &quot;Text&quot; field in the Layer Params to change the caption on it. The &quot;Style&quot; selectbox shows some basic styles (CSS classes) you can use to style the caption (you can always add own CSS classes to this field or edit the existing ones via the &quot;Edit CSS File&quot;).
+                    </p>
+                    <p>
+                        In case of an Image Layer you will see the native WP Media Uploader again. In case of a Video Layer you will prompted to a custom Video selection wizard.
+                    </p>
+                    <p>
+                        You now can move the Layers around via drag&amp;drop or type in the x and y coordinate in the corresponding fields.
+                    </p>
+                    <p>
+                        The &quot;Layers Sorting&quot; drag&amp;drop list determines the Layers&#39; z-index. This list specifies the stack order of an element.
+                    </p>
+                    <p>
+                        An element with greater stack order is always in front of an element with a lower stack order.
+                    </p>
+                    <p><img class="img-polaroid" src="images/image_31.png"></p>
+
+                    <div class="alert alert-info">
+                        <p>
+                            Whole documentation for Revolution Slider can be found in <strong>extras/revodocs/</strong> I strongly advise to read it ;)
+                            And each slide from demo of Trizzy can be imported, you'll find them in <strong>extras</strong> but they don't include images as those are copyrighted
+                        </p>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="page-header"><h3 id="getting_started_setting_up_the_menu">Setting up the basic menu</h3></div>
+                        <p>
+                            This theme uses WordPress 3.0 Custom Menus. Go to Appearance &gt; Menus and you will see a panel where you can create new menus. Create one, add your created pages to it(from the left side panels) and save it. After this, go to tab <strong>Manage Locations</strong> where you can select the Menu from dropdown box . Choose your newly created menu, click <a class="btn btn-mini btn-primary disabled">Save</a> and your menu is ready.
+                        </p>
+                    <img src="images/03.png" class="img-polaroid"/>
+
+                    <div class="page-header"><h3 id="getting_started_setting_up_the_menu">Setting up the MEGAmenu</h3></div>
+                     <img src="images/megamenu.png" class="img-polaroid"/>
+                    <br/><br/>
+                     <p>Here's the code for shortcodes used in menu in Trizzy demo</p>
+                            <pre class="prettyprint html">
+[image_caption_box image="http://trizzy.purethemes.wpengine.com/files/2014/08/menu-banner-01.jpg" title="Jeans" subtitle="An Example Subline" url="#" width="ignore"]
+
+[image_caption_box image="http://trizzy.purethemes.wpengine.com/files/2014/08/menu-banner-02.jpg" title="Sunglasses" subtitle="Add Anything Here" url="#/" width="ignore" ]
+                            </pre>
+                </section>
+
+              <!-- ========================= SECTION: MARKUP >> END ========================= -->
+
+
+              <section id="creating_content_post_pages_and_portfolio">
+                <div class="page-header">
+                    <h1>Creating Content<small> Post, Pages and Portfolios</small></h1>
+                </div>
+                <div id="creating_content_post_pages_and_portfolio_post" class="page-header"><h2>Post</h2></div>
+                <p>
+                    Creating posts is nothing special if you have even basic experience with WordPress. Trizzy theme offers couple of additional options in Post editor.
+                </p>
+                <div class="row">
+                    <div class="span8">
+                        <div class="page-header"><img src="images/formats.png" /></div>
+                    </div>
+                    <div class="span4">
+                        <h5>Post types</h5>
+                        <p>
+                            Trizzy support 5 types of posts. You can change them in right side box. Default is Standard - that one shows only text of post. Image type shows thumbs if it has any Featured Image added. The Video post will display video if you'll fill Video URL option, and Gallery type will display gallery you've created in post. Each change will show a form with options to fill.
+                        </p>
+                    </div>
+                </div>
+                <p>
+                    Below Editor you&#39;ll see <strong>Layout </strong>box and<strong> Post options</strong> box.
+                </p>
+                <div class="row">
+                    <div class="span6">
+                        <div class="page-header"><img src="images/layoutspost.png" /></div>
+                    </div>
+                    <div class="span6">
+                        <h5>Layout box</h5>
+                        <p>
+                            Layout box gives you ability to select sidebar to display with post or page, and also select layout of post - you can put sidebar on left or right side, or just show full-width content. Right side is default.
+                        </p>
+                        <p>
+                            You can create more sidebars in Theme Options in Sidebars section. Just follow instruction there.
+                        </p>
+                    </div>
+                </div>
+
+
+
+                    <p>
+                        If you want to use shortcodes in post content, you need to write the <strong>excerpt</strong> or you might see non parsed shortcodes in search results or in front page. The same applies if you want to use Page Builder.
+                    </p>
+
+
+
+
+                    <div class="page-header">
+                        <h3 id="creating_content_post_pages_and_portfolio_pages">Pages</h3>
+                    </div>
+                    <div class="row">
+                        <div class="span6">
+                            <div class="page-header"><img src="images/layoutspage.png" /></div>
+                        </div>
+                        <div class="span6">
+                            <h5>Layout box</h5>
+                            <p>
+                                Layout box gives you ability to select sidebar to display with post or page, and also select layout of post - you can put sidebar on left or right side, or just show full-width content. Right side is default.
+                            </p>
+                            <p>
+                                You can create more sidebars in Theme Options in Sidebars section. Just follow instruction there.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="span6">
+                            <div class="page-header"><img src="images/pageportfolio.png" /></div>
+                        </div>
+                        <div class="span6">
+                            <h5>Portfolio Template Options</h5>
+                            <p>This options apply only if page uses one of Page Template from this list:
+                            <ul>
+                                <li>Creative page Template</li>
+                                <li>Portfolio page 3 colums</li>
+                                <li>Portfolio page 4 colums</li>
+                                <li>Portfolio page dynamic grid</li>
+                            </ul>
+
+                            <p>
+                                <strong>Filters to display</strong> Instead of showing all filters at once, you can select which one to display on current page, which will allow you to create many portfolios with different content.
+                            </p>
+                            <p>
+                                <strong>Filters button</strong> you can hide it if you don't want to show filters. If you've selected just one filter, it won't be visible.
+                            </p>
+                            <p>
+                                <strong>The Title</strong> is a field where you can overwrite default title of Portfolio section
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="span6">
+                            <div class="page-header"><img src="images/slider.png" /></div>
+                        </div>
+                        <div class="span6">
+                            <h5>Slider</h5>
+                            <p>This options apply only if page uses one of Page Template from this list:
+                            <ul>
+
+                                <li>Page with Revolution Slider</li>
+                                <li>Creative page Template</li>
+                            </ul>
+                            <p>
+                                If the template is used, you'll able here to select which slider should be displayed. It allows you to create pages with custom sliders.
+                            </p>
+                        </div>
+                    </div>
+                    <br/><br/>
+                    <h3>Parallax Header</h3>
+                    <img src="images/parallaxheader.png" alt="">
+                    <div class="row">
+                        <div class="span6">
+                            <div class="page-header"><img src="images/pageparallax.png" /></div>
+                        </div>
+                        <div class="span6">
+                            <h5>Parallax Header</h5>
+                            <p>You can set for each page or product Parallax header, or hide whole titlebar.
+                                If you want to enable Parallax header you need to upload file that is at lest 1290px wide (the wider the better) and at least 200px high. You can set opacity and color of overlay over that image to make text more visible
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="span6">
+                            <div class="page-header"><img src="images/slider.png" /></div>
+                        </div>
+                        <div class="span6">
+                            <h5>Slider</h5>
+                            <p>This options apply only if page uses one of Page Template from this list:
+                            <ul>
+
+                                <li>Page with Revolution Slider</li>
+                                <li>Creative page Template</li>
+                            </ul>
+                            <p>
+                                If the template is used, you'll able here to select which slider should be displayed. It allows you to create pages with custom sliders.
+                            </p>
+                        </div>
+                    </div>
+
+                    <h4>
+                        List of page templates:
+                    </h4>
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th>Template name</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Home page</td>
+                                <td>Full width page with slider selected in Theme Options</td>
+                            </tr>
+                            <tr>
+                                <td>Portfolio page 3 columns</td>
+                                <td>Page to list portfolio items in 3 columns</td>
+                            </tr>
+                            <tr>
+                                <td>Portfolio page 4 columns</td>
+                                <td>Page to list portfolio items in 4 columns</td>
+                            </tr>
+                            <tr>
+                                <td>Page Template with Revolution Slider</td>
+                                <td>Page with Revolution Slider</td>
+                            </tr>
+                            <tr>
+                                <td>Portfolio page dynamic grid</td>
+                                <td>Page to list portfolio items as dynamic grid</td>
+                            </tr>
+                            <tr>
+                                <td>Contact page</td>
+                                <td>Page to list portfolio items as dynamic grid</td>
+                            </tr>
+                             <tr>
+                                <td>Creative page Template</td>
+                                <td>RevoSlider + Dynamic Grid</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                    <div class="page-header">
+                        <h3 id="creating_content_post_pages_and_portfolio_portfolio">Portfolio</h3>
+                    </div>
+                    <p>
+                        Portfolio is similar to posts. You can create portfolio item which will feature gallery of your images, or video clip.
+                        Create Gallery the same way you do it in posts (reminder: screencast is <a href="http://www.youtube.com/watch?feature=player_embedded&v=a5AtPARovAY">here</a>, and don&#39;t forget to set Featured Image.
+                    </p>
+                    <p>
+                        You can create portfolio item in two types - Wide and "Half wide". In first case, slider takes all available space, which means that
+                        ideally images for portfolio should be <strong>1180px wide</strong>, smaller images won&#39;t look good as they will be strechted.
+                        If you wish to use only "Half wide" the images needs  to be 775px wide. The height of images is not important as slider will adjust for each image.
+                    </p>
+                    <div class="alert alert-info">
+                        <p>
+                            WordPress will try to resize images you're uploading, that may result in not the results you want. If you'll notice that, the best option for you is to prepare images in exactly the size you want.
+                        </p>
+                    </div>
+                    <p>
+                        Now you have couple of custom options. First you can put subtitle to the Item name.<br/> You can also switch gallery to Video, then just paste URL to the clip and it will be displayed in place of gallery slider. List of supported sites is here http://codex.wordpress.org/Embeds
+                    </p>
+                    <p> You're free to use any shortcodes or other elements in a Portfolio content, just remember that if you're using "half" layout the content wide is just "five" columns. </p>
+
+                    <div class="row">
+                        <div class="span6">
+                            <div class="page-header"><img src="images/portfoliometa.png" /></div>
+                        </div>
+                        <div class="span6">
+                            <h5>Portfolio Options</h5>
+                            <p>
+                                <strong>Portfolio Type</strong> Video or gallery. If you select Video, you need to either put URL to video in field below or get embed code.
+                            </p>
+                            <p>
+                                <strong>Portfolio layout</strong> If "wide" is selected the gallery will take all available space, if "half" is selected the gallery will take only 11 columns.
+                            </p>
+                            <p>
+                                <strong>Gallery Slider</strong> the same gallery editor as for posts.
+                            </p>
+                            <p>
+                                <strong>Link to video</strong> paste URL to the clip and it will be displayed in place of gallery slider. List of supported sites is here http://codex.wordpress.org/Embeds
+                            </p>
+                            <p>
+                                <strong>Embed code for Video</strong> if your service doesn't support oEmbed, you need to paste here whole embed code (probably starts with "object" tags)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="page-header">
+                        <h3 id="creating_content_post_pages_and_portfolio_portfolio">Portfolio filters</h3>
+                        <p>Filters acts like categories - you can add one portfolio item to many filters.</p>
+                        <img src="images/filters.png" class="img-polaroid"/>
+                    </div>
+                </section>
+
+
+                 <section id="p">
+                    <div class="page-header">
+                        <h1 id="page-builder">Page Builder</h1>
+                    </div>
+                    <div class="row">
+                        <div class="span6">
+                            <div class="page-header"><img src="images/jscomposer.png" /></div>
+                        </div>
+                        <div class="span6">
+                            <p>
+                                Page Builder in Trizzy is based on <a href="http://codecanyon.net/item/visual-composer-page-builder-for-wordpress/242431">Showbiz
+Visual Composer: Page Builder for WordPress</a>
+                            </p>
+                           <p>
+                               It's extended by 22 new blocks designed for Trizzy, that allows you even more flexibility in creating your website
+                           </p>
+
+
+
+                        </div>
+                    </div>
+                  <iframe src="//player.vimeo.com/video/92033601" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/92033601">Create your own webpage in less then 10 minutes with Visual Composer page builder for WordPress</a> from <a href="http://vimeo.com/wpbakery">Michael</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                     <p>Watch it in fullscreen</p>
+                </section>
+
+
+
+                <section id="plugins">
+                    <div class="page-header">
+                        <h1 id="plugins">Plugins<small> Configuration</small></h1>
+                    </div>
+                </section>
+
+                <p>Here's some short info about basic plugins you can and need to use in Trizzy.</p>
+
+
+                <div class="page-header">
+                    <h3><strike>MailChimp Widget</strike></h3>
+                </div>
+                <p>
+                    <strike>If you're using MailChimp for sending mailings, you can get subscribers by using official MailChimp Widget plugin that is nicely styled for Trizzy.</strike>
+                </p>
+<div class="page-header">
+                    <h3>MailChimp for WordPress <small>Optional plugin</small></h3>
+                </div>
+
+                <p>
+                    If you're using MailChimp for sending mailings, you can get subscribers by using <a href="https://wordpress.org/plugins/mailchimp-for-wp/">MailChimp for WordPress</a> plugin. After installing plugin and connecting it to your MailChimp API, go to wp-admin -> MailChimp for WP -> Forms and as form markup put:
+                    <pre>
+&lt;p class="margin-bottom-15">Sign up to receive email updates on new product announcements, gift ideas, special promotions, sales and more.&lt;/p>
+&lt;input type="email" class="newsletter" name="EMAIL" placeholder="Your email address" required /> &lt;input class="newsletter-btn" type="submit" name="Join" value="Join">
+                    </pre>
+                    Now, change the <strong>Load form styles (CSS)?</strong> to "No", and add a Text Widget to your footer with the content 
+                    [mc4wp_form]
+                </p>
+
+
+                <div class="page-header">
+                    <h3>WooCommerce <small>Optional plugin</small></h3>
+                </div>
+                <p>
+                    After installing WooCommerce, be sure to go WooCommerce - Settings and uncheck option "Enable WooCommerce CSS styles". Trizzy has full support for WooCommerce, with nicely styled templates matching theme design
+                </p>
+
+                <div class="page-header">
+                    <h3>WP-PageNavi <small>Optional plugin</small></h3>
+                </div>
+                <p>
+                    After installing, go to Settings - PageNavi, and be sure to have checked "Use pagenavi-css.css". This will replace standard "next/prev" page buttons with pagination list.
+                </p>
+
+                 <div class="page-header">
+                    <h3>YITH WooCommerce Wishlist<small>Optional plugin</small></h3>
+                </div>
+                <p>
+                   If you want to add wishlist functionality to your shop, this plugin is the one you need ;)
+                </p>
+
+
+                <div class="page-header">
+                    <h3>WPML compatibility!</h3>
+                </div>
+                <p>
+                    Trizzy is fully compatible with <a href="http://wpml.org/?aid=27926&amp;affiliate_key=LikrvB9gJOkU" rel="nofollow">WPML</a>, which means you can create multilingual versions of your site.
+                </p>
+                <p>
+                    You need to install two plugins from WPML - <strong>WPML Multilingual CMS</strong> and <strong>WPML String Translation</strong>. You'll find extensive documentation about using WPML plugin here <a href="http://wpml.org/documentation/getting-started-guide/">http://wpml.org/documentation/getting-started-guide/</a>, but you need to know two things about Trizzy to fully translate it.
+                </p>
+                <p>
+                    Except post pages and other content that is editable from wp-admin, theme has also couple of text string which are "hardcoded" in theme files. Good news, you can translate them also! You just need to go to wp-admin -> WPML -> String Translation, and find the strings you need to translate.  <br/>
+                </p>
+
+                <div class="clear" style="clear:both"></div>
+
+                <section id="shortcodes_widgets">
+                    <div class="page-header">
+                        <h1 id="shortcodes">Shortcodes & Widgets<small> Configuration</small></h1>
+                    </div>
+
+                    <p>
+                        <em><strong>Trizzy</strong></em> has many shortcodes which will help you to build awesome layouts. In &quot;extras&quot; folder you have sample layouts saved as text files, so you can just copy them to your Editor and use them as a base for your site.
+                    </p>
+
+                    <p>
+                        Here is list of all shortcodes:
+                    </p>
+
+                    <div class="page-header"><h3>Space shortcode:</h3></div>
+                    <div class="row">
+                        <div class="span4">
+                            <pre class="prettyprint html">[space class="margin-top-30"]</pre>
+                        </div>
+                        <div class="span8">
+                            <p>
+                                This works like [clear] shortcode but allows you to add custom class, for example to make some whitespace. There are couple class available, margin-top-xx, margin-bottom-xx where xx can be number 0,10,15,20,25,30,35,40,45 or 50
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="page-header"><h3>Clear shortcode:</h3></div>
+                    <div class="row">
+                        <div class="span4">
+                            <pre class="prettyprint html">[clear]</pre>
+                        </div>
+                        <div class="span8">
+                            <p>
+                                Empty div with clearfix, use after floated elements
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="page-header"><h3>Dropcap shortcode:</h3></div>
+                    <div class="row">
+                        <div class="span4">
+                            <pre class="prettyprint html">[dropcap type=""] A[/dropcap]</pre>
+                        </div>
+                        <div class="span8">
+                            <p>
+                                Make first letter of paragraph larger than the rest of the text. As "type" you can use also 'full'.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="page-header"><h3>Headline shortcodes:</h3></div>
+                    <div class="row">
+                        <div class="span4">
+                            <pre class="prettyprint html">[headline margintop="0" marginbottom="30" clearfix="1"] Text [headline]</pre>
+                        </div>
+                        <div class="span8">
+                            Example: <br/>
+                            <img src="images/headlne.png" alt="" >
+                            <br/>
+                            <p>
+                                This will create H tag styled for nice start of paragraph. You can add top and bottom margin to it.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="page-header"><h3>Icon shortcodes:</h3></div>
+                    <div class="row">
+                        <div class="span4">
+                            <pre class="prettyprint html">[icon icon=""]</pre>
+                        </div>
+                        <div class="span8">
+                            <p>
+                                This will add one of icons from <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome pack</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="page-header"><h3>Highlight shortcodes:</h3></div>
+                    <div class="row">
+                        <div class="span4">
+                            <pre class="prettyprint html">[highlight style=""] text [highlight]</pre>
+                        </div>
+                        <div class="span8">
+                            <img src="images/highlight.png" alt="">
+                            <p>
+                                This will highlight wrapped text.
+                            </p>
+                            <strong>Options</strong>
+                            <ul>
+                                <li><strong>style</strong> "color" (default), "gray", "light"</li>
+                           </ul>
+                        </div>
+                    </div>
+
+                    <div class="page-header">
+                        <h3>Iconbox</h3>
+                    </div>
+
+                    <div class="row">
+                        <div class="span6">
+                             <img src="images/iconbox.png" alt="">
+                            <pre class="prettyprint html">
+[iconbox title=&quot;Easy to Customize&quot; link="" icon=&quot;icon-bullhorn&quot;]Proin iaculis purus consequat sem cursus digni ssim. Donec porttitor entume suscipit. Aenean rhoncus posuere odio in tincidunt.[/iconbox]
+                            </pre>
+
+                        </div>
+                        <div class="span6">
+
+                            <p>
+                                Iconbox is designed to create features lists of your products.
+                            </p>
+                            <strong>Options</strong>
+                            <ul>
+                                <li><strong>title</strong> - required field</li>
+                                <li><strong>link</strong> - where user will be moved after clicking box</li>
+                                <li><strong>icon</strong> - FontAwesome icon</li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="page-header">
+                        <h3>Recent work</h3>
+                    </div>
+                    <div class="row">
+                        <div class="span12"><img src="images/recentwork.png" alt="" style="text-align:center; margin:0px auto; display:block"><br/><br/></div>
+                        <div class="span6">
+                            <pre class="prettyprint html">
+[recent_work per_page="12"  orderby="date" order="DESC" filters=""  exclude_posts="" include_posts="12,54,8"] </pre>
+
+                        </div>
+                        <div class="span6">
+                            <p>
+                                This shortcode will display scrollable list of items from Portfolio, you can get them from specific filters or change order of display.
+                            </p>
+                            <strong>Options</strong>
+                            <ul>
+                                <li><strong>limit</strong> - how many items to display</li>
+                                <li><strong>orderby</strong> - none | ID | author | title | name | date | modified | parent | rand | comment_count</li>
+                                <li><strong>order</strong> - ASC | DESC</li>
+                                <li><strong>filters</strong> - put names of filters separated by comma to display items only from those filters</li>
+                                <li><strong>exclude_posts</strong> - put ID's of portfolio items, separated by comma to exclude them from list</li>
+                                <li><strong>include_posts</strong> - put ID's of portfolio items, separated by comma to include them in the list, if empty all available posts will be used (and it will depend from order and orderby settings)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="page-header">
+                        <h3>Testimonials shortcode</h3>
+                    </div>
+                    <div class="row">
+                     <div class="span12"><img src="images/testimonials.png" alt="" style="text-align:center; margin:0px auto; display:block"><br/><br/></div>
+                     </div>
+                    <pre class="prettyprint html">
+[happytestimonials limit="4" orderby="date" width="" place="" exclude_posts=''  include_posts='',]
+                    </pre>
+
+                    <p>
+                        This shortcode will display carousel with testimonials. You need to first add them in WordPress, in Testimonials menu (it's a Custom Post Type) If you want some nicely styled carousel with company logo you can try 'happytestimonials' shortcode.
+                    </p>
+                    <strong>Options</strong>
+                    <ul>
+
+                        <li><strong>limit</strong> - how many items to display</li>
+                        <li><strong>orderby</strong> - none | ID | author | title | name | date | modified | parent | rand | comment_count</li>
+                        <li><strong>place</strong> - first/last/center/none</li>
+                        <li><strong>exclude_posts</strong> - put ID's of testimonials separated by comma to exclude them from list</li>
+                        <li><strong>include_posts</strong> - put ID's of testimonials, separated by comma to include them in the list, if empty all available posts will be used (and it will depend from order and orderby settings)</li>
+                    </ul>
+
+                        <div class="page-header">
+                            <h3>Team shortcode</h3>
+                        </div>
+                        <div class="row">
+                        <div class="span12"><img src="images/team.png" alt="" style="text-align:center; margin:0px auto; display:block"><br/><br/></div>
+                     </div>
+                        <pre class="prettyprint html">
+[team limit="4" title="Team" members="" link_to_pages="yes" width_of_single_box="" columns=""]
+
+                        </pre>
+                        <p>
+                        Team shortcode is used on About Us page - it gives nicely styled boxes to feature team members of your comapny.
+                        You need to first add team in WordPress, in Team menu (it's a Custom Post Type) </p>
+                        <strong>Options</strong>
+                        <ul>
+                            <li><strong>title</strong> - required field</li>
+                            <li><strong>limit</strong> - how many items to display</li>
+                            <li><strong>members</strong> - if you want to show specific members, you can put here ID's separated by the comma </li>
+                            <li><strong>link_to_pages</strong> - set it to "no" if you don't want to link images to single team member site</li>
+                        </ul>
+
+
+                        <div class="page-header"><h3>Columns shortcodes:</h3></div>
+                        <p>
+                            <em><strong>Trizzy</strong></em> is based on modified Skeletons grid - Full width page has 16 columns, if it&#39;s page with sidebar it has 16 columns. Using columns shortcodes you can build your own layouts.
+                        </p>
+                        <p>
+                            The important part of columns shortcode except the width is place. You have 3 options here - <em>first</em>, <em>none </em>or <em>last</em>. If <em>last </em>is used, it&#39;s assumed that this column is last in current row and floats will be cleared. <em>First&nbsp; </em>will set margin-left to 0px. If you have more than two columns you might want to use also <em>place=&quot;center&quot;</em> - it will set margin left and margin right to 0px. It&#39;s good to try different parameters to find out what looks the best in specific situation.
+                        </p>
+                        <hr/>
+                        <div class="row">
+                            <div class="span6">
+                                <pre class="prettyprint html">
+[column width=&quot;one-third&quot; place=&quot;first&quot; ] Put here content [/column] [column width=&quot;two-thirds&quot; place=&quot;last&quot; ] Put here content[/column]
+                                </pre>
+                            </div>
+
+                            <div class="span6">
+                                <strong>Options</strong>
+                                <ul>
+                                    <li><strong>width</strong> "sixteen" (default), "fifteen", "fourteen", (..), "two", "one"</li>
+                                    <li><strong>place</strong> "first" (default), "center", "last", "none"</li>
+                                    <li><strong>custom_class</strong> just adds custom class to the container div, handy if you want to style something in different way</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p>
+                            You can use other shortcodes in columns.
+                        </p>
+
+                        <div class="page-header"><h3>Tooltip shortcodes:</h3></div>
+                        <div class="row">
+                            <div class="span4">
+                                <pre class="prettyprint html">[tooltip title="" url="" side=""] text [tooltip]</pre>
+                            </div>
+                            <div class="span8">
+                                <p>
+                                    Create tooltip over link, showed on hover.
+                                </p>
+                                <strong>Options</strong>
+                                <ul>
+                                    <li><strong>title</strong> </li>
+                                    <li><strong>url</strong> </li>
+                                    <li><strong>side</strong> top | left | bottom | right</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="page-header"><h3>Skillbar shortcode:</h3></div>
+                        <div class="row">
+                            <div class="span4">
+                                 <p>It needs to be wrapped with [skillbars] shortcode</p>
+                        <pre class="prettyprint html">
+[skillbars] [skillbar title="Security"  value="90"][skillbar title="HTML / CSS" value="80"][skillbar title="Usability"  value="70"][skillbar title="Marketing" value="60"] [/skillbars]
+                        </pre>
+                         <p>This will show animated horizontal bars that represents levels of your skills</p>
+                            </div>
+                            <div class="span8">
+                                <img src="images/skills.png" alt="" style="text-align:center; margin:0px auto; display:block"><br/><br/>
+
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="page-header"><h3 id="shortcodes_widgets_pricing_tables">Pricing Tables</h3></div>
+<div class="row">
+                     <div class="span12"><img src="images/pricing.png" alt="" style="text-align:center; margin:0px auto; display:block"><br/><br/></div>
+                     </div>
+                        <p>Pricing tables are not available currently from TinyMCE editor.</p>
+                        <p>Sample code for Pricing table:</p>
+                        <pre class="prettyprint html">
+[pricing_table title="Standard" price="9.99" buttonlink="#" per="per month" place="first" ]&lt;ul>
+    &lt;li>25 GB Storage&lt;/li>
+    &lt;li>Free Live Support&lt;/li>
+    &lt;li>Unlimited Users&lt;/li>
+    &lt;li>No Time Tracking&lt;/li>
+    &lt;li>Enhanced SSL Security&lt;/li>
+&lt;/ul>[/pricing_table][pricing_table title="Premium" price="29.99" per="per month" buttonlink="#" type="featured" ]&lt;ul>
+    &lt;li>50 GB Storage&lt;/li>
+    &lt;li>Free Live Support&lt;/li>
+    &lt;li>Unlimited Users&lt;/li>
+    &lt;li>No Time Tracking&lt;/li>
+    &lt;li>Enhanced SSL Security&lt;/li>
+&lt;/ul>[/pricing_table][pricing_table title="Professional" price="69.99" per="per month" buttonlink="#" type="premium"]&lt;ul>
+    &lt;li>100 GB Storage&lt;/li>
+    &lt;li>Free Live Support&lt;/li>
+    &lt;li>Unlimited Users&lt;/li>
+    &lt;li>No Time Tracking&lt;/li>
+    &lt;li>Enhanced SSL Security&lt;/li>
+&lt;/ul>[/pricing_table] [pricing_table title="Ultimate" price="99.99" per="per month" buttonlink="#" place="last"]&lt;ul>
+    &lt;li>100 GB Storage&lt;/li>
+    &lt;li>Free Live Support&lt;/li>
+    &lt;li>Unlimited Users&lt;/li>
+    &lt;li>No Time Tracking&lt;/li>
+    &lt;li>Enhanced SSL Security&lt;/li>
+&lt;/ul>[/pricing_table]
+
+                        </pre>
+
+
+
+                            <p>Here's one regular column:</p>
+                            <pre class="prettyprint html">
+[pricing_table title="Ultimate" price="99.99" color="#514e9f" per="per month" buttonlink="#" place="last" ]&lt;ul>
+&lt;li>5 GB Storage&lt;/li>
+&lt;li>Free Live Support&lt;/li>
+&lt;li>Unlimited Users&lt;/li>
+&lt;li>No Time Tracking&lt;/li>
+&lt;li>Enhanced SSL Security&lt;/li>
+&lt;/ul>
+&lt;a href=&quot;#&quot;&gt;Sign Up&lt;/a&gt;[/pricing_table]
+                            </pre>
+                            <strong>Options</strong>
+                                <ul>
+                                    <li><strong>type</strong> standard | premium | featured</li>
+                                    <li><strong>title</strong> required</li>
+                                    <li><strong>color</strong>  #f6f6f6 - example color of table</li>
+                                    <li><strong>currency</strong> by default $</li>
+                                    <li><strong>price</strong> just a number </li>
+                                    <li><strong>per</strong> "per month" | "per year" etc</li>
+                                    <li><strong>buttonstyle</strong> additional class for button</li>
+                                    <li><strong>buttonlink</strong> URL </li>
+                                    <li><strong>buttontext</strong> "Sign up" etc</li>
+                                    <li><strong>width</strong> "sixteen" (default), "fifteen", "fourteen", (..), "two", "one"</li>
+                                    <li><strong>place</strong> "first" (default), "center", "last", "none"</li>
+                                </ul>
+                            <p class="info">Remember that there shoudn&#39;t be any white space between closing and opening tag [/pricing_table][pricing_table]</p>
+
+
+                        <div class="page-header"><h3>Toggle</h3></div>
+
+                        <div class="row">
+                            <div class="span6">
+                                <pre class="prettyprint html">
+                                    [toggle title=" How much does it cost?"] Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. Donec ut volutpat metus. Vivamus justo arcu, elementum a sollicitudin pellentesque, tincidunt ac enim. Proin id arcu ut ipsum vestibulum elementum. [/toggle]
+                                </pre>
+                            </div>
+                            <div class="span6">
+                                <strong>Options</strong>
+                                <ul>
+                                    <li><strong>title</strong> required</li>
+                                    <li><strong>open</strong> set to "yes" to show it open at start, default is "no"</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class="page-header"><h3>List styles</h3></div>
+                        <div class="row">
+                     <div class="span12"><img src="images/list.png" alt="" style="text-align:center; margin:0px auto; display:block"><br/><br/></div>
+                 </div>
+                        <div class="row">
+                            <div class="span6">
+                                <pre class="prettyprint html">
+[list style=1 color="yes"]
+  &lt;ul>
+    &lt;li> list item &lt;/li>
+    &lt;li> list item &lt;/li>
+ &lt;/ul>
+[/list]
+                                </pre>
+                            </div>
+                            <div class="span6">
+                               <strong>Options</strong>
+                               <ul>
+                                <li><strong>style</strong> 1 | 2 | 3 | 4</li>
+                                <li><strong>color</strong> yes | no</li>
+                                </ul>
+                                <p>Use it to replace boring list bullets with nice icons</p>
+                            </div>
+                        </div>
+
+
+                        <div class="page-header"><h3>Box shortcode:</h3></div>
+                        <div class="row">
+                            <div class="span6">
+                                <pre class="prettyprint html">
+[box type=error] Error! Please fill in all the fields required. [/box]
+                                </pre>
+                            </div>
+                            <div class="span6">
+                                <strong>Options</strong>
+                                <ul>
+                                    <li><strong>type</strong> "error", "notice", "warning", "success"</li>
+                                </ul>
+                            </div>
+                          </div>
+
+                    <div class="page-header"><h3>Button shortcode:</h3></div>
+                    <div class="row">
+                        <div class="span6">
+                            <pre class="prettyprint html">
+[button color=&quot;green&quot; url=&quot;#&quot; icon=&quot;icon-ok&quot; iconcolor=&quot;white&quot;] Text [/button]
+                            </pre>
+                        </div>
+                         <div class="span6">
+                            <strong>Options</strong>
+                            <ul>
+                                <li><strong>url</strong> link</li>
+                                <li><strong>color</strong> "color" (default), "gray", "dark"</li>
+                                <li><strong>customcolor</strong> "#000000" (any color hash) </li>
+                                <li><strong>iconcolor</strong> "white","black"</li>
+                                <li><strong>icon</strong> Font Awesome icon name </li>
+                                <li><strong>url</strong>  </li>
+                                <li><strong>target</strong> "_blank"</li>
+                                <li><strong>customclass</strong></li>
+                            </ul>
+                         </div>
+                    </div>
+
+
+                    <div class="page-header"><h3>Tabs shortcode:</h3></div>
+                    <pre class="prettyprint html">
+[tabgroup] [tab title=&quot;Tab 1&quot; icon=&quot;icon-star&quot;] Aliquam egestas consectetur elementum class aptent taciti sociosqu ad litora torquent perea conubia nostra lorem inceptos orem ipsum dolor sit amet, consectetur adipiscing elit.[/tab] [tab title=&quot;Tab 2&quot;] Lorem ipsum pharetra felis. Aliquam egestas consectetur elementum class aptent taciti sociosqu ad litora torquent perea conubia nostra lorem inceptos orem ipsum dolor sit amet, consectetur adipiscing elit.[/tab] [tab title=&quot;Tab 3&quot;] Lorem ipsum pharetra felis. Aliquam egestas consectetur elementum class aptent taciti sociosqu ad litora torquent perea conubia nostra lorem inceptos orem ipsum dolor sit amet, consectetur adipiscing elit. [/tab] [/tabgroup]
+                    </pre>
+
+                    <p>
+                        You can add icons to tab by using parameter <em>icon</em>. Whole tab section must be in [tabgroup] shortcode.
+                    </p>
+                    <img src="assets/tabs.png" />
+
+
+                    <div class="page-header"><h3>Accordion shortcode:</h3></div>
+                    <p>It need's to be wrapped with [accordionwrap] shortcode</p>
+                    <pre class="prettyprint html">
+[accordionwrap] [accordion title=&quot;Accordion#1&quot;] Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor libero sodales leo, eget blandit nunc tortor eu nibh. Aenean nisl orci lorem, condiment ultrices consequat eu lorem ipsum dolor sit amet inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo dolor sit amet.[/accordion][accordion title=&quot;Accordion#1&quot;] Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor libero sodales leo, eget blandit nunc tortor eu nibh. Aenean nisl orci lorem, [/accordion][accordion title=&quot;Accordion#1&quot;] Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor libero sodales leo, eget blandit nunc tortor eu nibh. Aenean nisl orci lorem, [/accordion] [/accordionwrap]
+                    </pre>
+
+                    <div class="page-header"><h3 id="shortcodes_widgets_team_shortcode">Google maps shortcode</h3></div>
+                    <pre class="prettyprint html">[googlemap width="100%" height="250px" address='New York, United States']</pre>
+
+                    <p>You can display simple google map with address box, if you want something more advanced there are dozens of plugins you could use</p>
+
+
+                    <div class="page-header"><h3 id="shortcodes_widgets_team_shortcode">Clients shortcode</h3></div>
+                      <div class="row">
+                     <div class="span12"><img src="images/clients.png" alt="" style="text-align:center; margin:0px auto; display:block"><br/><br/></div></div>
+                    <pre class="prettyprint html">
+[clients_carousel]
+&lt;ul>
+&lt;li>&lt;img title="logo_01" src="http://www.demo.purethemes.net/incredible/wp-content/uploads/2012/09/logo_01.png" alt="" width="187" height="95" />&lt;/li>
+&lt;li>&lt;img title="logo_01" src="http://www.demo.purethemes.net/incredible/wp-content/uploads/2012/09/logo_02.png" alt="" width="187" height="95" />&lt;/li>
+&lt;/ul>
+[/clients_carousel]
+                        </pre>
+                        <p> You can display with this shortcode nice list of logo of e.g your partners, just put list of IMG tags in [clients] [/clients].</p>
+                            <strong>Options</strong>
+                            <ul>
+
+                                <li><strong>width</strong> "sixteen" (default), "fifteen", "fourteen", (..), "two", "one"</li>
+                                <li><strong>place</strong> "first" (default), "center", "last", "none"</li>
+                            </ul>
+
+
+
+                  <div class="page-header"><h3>Recent products shortcode:</h3></div>
+                   <div class="row"><div class="span12"><img src="images/products.png" alt="" style="text-align:center; margin:0px auto; display:block"><br/><br/></div></div>
+                    <div class="row">
+                        <div class="span6">
+                            <pre class="prettyprint html">
+[trizzy_recent_products per_page=&quot;12&quot; orderby=&quot;date&quot; order=&quot;DESC&quot; category=&quot;cars&quot; ids=&quot;12,32,40&quot;]
+                            </pre>
+                        </div>
+                         <div class="span6">
+                            <strong>Options</strong>
+                            <ul>
+                               <li><strong>per_page</strong> - how many items to display</li>
+                                <li><strong>orderby</strong> - none | ID | author | title | name | date | modified | parent | rand | comment_count</li>
+                                <li><strong>order</strong> - ASC | DESC</li>
+                                <li><strong>category</strong> - if you want to choose products from specific category</li>
+                                <li><strong>ids</strong> - if you want to choose specific products, just put their ID's separated by comas</li>
+                            </ul>
+                         </div>
+                    </div>
+
+
+                   <div class="page-header"><h3>Recent products list shortcode:</h3></div>
+                   <div class="row"><div class="span12"><img src="images/productslist.png" alt="" style="text-align:center; margin:0px auto; display:block"><br/><br/></div></div>
+                    <div class="row">
+                        <div class="span6">
+                            <pre class="prettyprint html">
+[trizzy_products_list per_page=&quot;4&quot; orderby=&quot;date&quot; order=&quot;DESC&quot; category=&quot;cars&quot; ids=&quot;12,32,40&quot; type=&quot;featured&quot;]
+                            </pre>
+                        </div>
+                         <div class="span6">
+                            <strong>Options</strong>
+                            <ul>
+                               <li><strong>title</strong> - just title ;)</li>
+                               <li><strong>type</strong> - best_selling, top_rated, featured</li>
+                               <li><strong>per_page</strong> - how many items to display</li>
+                                <li><strong>orderby</strong> - none | ID | author | title | name | date | modified | parent | rand | comment_count</li>
+                                <li><strong>order</strong> - ASC | DESC</li>
+                                <li><strong>category</strong> - if you want to choose products from specific category</li>
+                                <li><strong>ids</strong> - if you want to choose specific products, just put their ID's separated by comas</li>
+                                <li><strong>order</strong> - ASC | DESC</li>
+                            </ul>
+                         </div>
+                    </div>
+
+                   <div class="page-header"><h3>Image caption box shortcode:</h3></div>
+                   <div class="row"><div class="span12"><img src="images/imagecaption.png" alt="" style="text-align:center; margin:0px auto; display:block"><br/><br/></div></div>
+                    <div class="row">
+                        <div class="span6">
+                            <pre class="prettyprint html">
+[image_caption_box title=&quot;Men\'s Shirts&quot; subtitle=&quot;25% Off Summer Styles&quot; image=&quot;http://imageurl&quot; url=&quot;&quot; width=&quot;one-third&quot; place=&quot;first&quot;]
+                            </pre>
+                        </div>
+                         <div class="span6">
+                            <strong>Options</strong>
+                            <ul>
+                               <li><strong>title</strong> - just title ;)</li>
+                               <li><strong>subtitle</strong> - just subtitle</li>
+                               <li><strong>image</strong> - direct link to image</li>
+                                <li><strong>url</strong> - where box should link</li>
+                            </ul>
+                         </div>
+                    </div>
+
+
+                   <div class="page-header"><h3>Parallax shortcode:</h3></div>
+                   <div class="row"><div class="span12"><img src="images/parallax.png" alt="" style="text-align:center; margin:0px auto; display:block"><br/><br/></div></div>
+                    <div class="row">
+                        <div class="span6">
+                            <pre class="prettyprint html">
+[parallax background=&quot;#000&quot; title=&quot;End of season sale&quot; subtitle=&quot;Up to 35% off Women’s Denim&quot; image=&quot;http://imageurl&quot; height=&quot;200&quot; opacity=&quot;0.45&quot; custom_class=&quot;&quot;]
+                            </pre>
+                        </div>
+                         <div class="span6">
+                            <strong>Options</strong>
+                            <ul>
+                               <li><strong>title</strong> - just title ;)</li>
+                               <li><strong>subtitle</strong> - just subtitle</li>
+                               <li><strong>image</strong> - direct link to image, should be as wide as possible (1920px preffered)</li>
+                                <li><strong>height</strong> - put value smaller then the actuall height of image, so the diffrence will be animated</li>
+                                <li><strong>opacity</strong> opacity value of overlay</li>
+                                <li><strong>background</strong> color of overlay</li>
+                            </ul>
+                         </div>
+                    </div>
+
+
+                    <div class="page-header"><h3>Latest from box shortcode:</h3></div>
+                   <div class="row"><div class="span12"><img src="images/latestblog.png" alt="" style="text-align:center; margin:0px auto; display:block"><br/><br/></div></div>
+                    <div class="row">
+                        <div class="span6">
+                            <pre class="prettyprint html">
+[latest_from_blog]
+                            </pre>
+                        </div>
+                         <div class="span6">
+                            <strong>Options</strong>
+                            <ul>
+                                <li><strong>limit</strong> - number of posts to display </li>
+                                <li><strong>columns</strong> - number of columns to which divide grid </li>
+                                <li><strong>orderby</strong> - none | ID | author | title | name | date | modified | parent | rand | comment_count</li>
+                                <li><strong>order</strong> - ASC | DESC</li>
+                                <li><strong>categories</strong> - if you want to display posts from specifc categories </li>
+                                <li><strong>tags</strong> - if you want to display posts from specifc tags </li>
+                                <li><strong>exclude_posts</strong> - if you want to exclude any specific posts from list, use their ID's after coma </li>
+                                <li><strong>masonry</strong> - enable Isotope</li>
+                                <li><strong></strong> </li>
+                         </div>
+                    </div>
+
+
+                <div class="page-header"><h3>Content box shortcode:</h3></div>
+                   <div class="row"><div class="span12"><img src="images/contentbox.png" alt="" style="text-align:center; margin:0px auto; display:block"><br/><br/></div></div>
+                    <div class="row">
+                        <div class="span6">
+                            <pre class="prettyprint html">
+[contentbox width="four" effect="1" place="first" title="Effect #1" icon="bolt" link="#"] Integer ultrices scelerisque nulla fringilla. Praesent leo massa, ullamcorper venenatis tempor. [/contentbox]
+                            </pre>
+                        </div>
+                         <div class="span6">
+                            <strong>Options</strong>
+                            <ul>
+                                <li><strong>title</strong> - required title </li>
+                                <li><strong>icon</strong> - one of Font Awesome icons </li>
+                                <li><strong>effect</strong> - 1 | 2 | 3 | 4</li>
+
+                         </div>
+                    </div>
+
+                <div class="page-header"><h3>Counter box shortcode:</h3></div>
+                   <div class="row"><div class="span12"><img src="images/counter.png" alt="" style="text-align:center; margin:0px auto; display:block"><br/><br/></div></div>
+                    <div class="row">
+                        <div class="span6">
+                            <pre class="prettyprint html">
+[counterbox width="four" place="first" title="Happy customers" icon="thumbs-o-up" value="2,147" colored="no"]
+                            </pre>
+                        </div>
+                         <div class="span6">
+                            <strong>Options</strong>
+                            <ul>
+                                <li><strong>title</strong> - required title </li>
+                                <li><strong>icon</strong> - one of Font Awesome icons </li>
+                                <li><strong>value</strong> - animated number</li>
+                                <li><strong>colored</strong> - set to "yes" to use all colored version</li>
+
+                         </div>
+                    </div>
+
+
+                    <div class="page-header"><h3>Info baner shortcode:</h3></div>
+                   <div class="row"><div class="span12"><img src="images/banner.png" alt="" style="text-align:center; margin:0px auto; display:block"><br/><br/></div></div>
+                    <div class="row">
+                        <div class="span6">
+                            <pre class="prettyprint html">
+[infobanner title="Perfect Template for Showing Your Products" buttontext="Get This Theme"] Trizzy is a premium template created for ecommerce and business websites [/infobanner]
+                            </pre>
+                        </div>
+                         <div class="span6">
+                            <strong>Options</strong>
+                            <ul>
+                                <li><strong>title</strong> - required title </li>
+                                <li><strong>url</strong> - where should button link </li>
+                                <li><strong>buttontext</strong> - text on the button</li>
+                         </div>
+                    </div>
+
+
+                    <div class="page-header"><h3>Popup shortcode:</h3></div>
+                   <div class="row"><div class="span12"><img src="images/popup.png" alt="" style="text-align:center; margin:0px auto; display:block"><br/><br/></div></div>
+                    <div class="row">
+                        <div class="span6">
+                            <pre class="prettyprint html">
+[popup title="Modal Popup" buttontext="Open popup"] Trizzy is a premium template created for ecommerce and business websites [/popup]
+                            </pre>
+                        </div>
+                         <div class="span6">
+                            <strong>Options</strong>
+                            <ul>
+                                <li><strong>title</strong> - required title </li>
+                                <li><strong>buttontext</strong> - text on the button</li>
+                         </div>
+                    </div>
+
+
+                    <div class="page-header"><h3>Share it shortcode:</h3></div>
+                   <div class="row"><div class="span12"><img src="images/share.png" alt="" style="text-align:center; margin:0px auto; display:block"><br/><br/></div></div>
+                    <div class="row">
+                        <div class="span6">
+                            <pre class="prettyprint html">
+[shareit facebook="yes" pinit="yes" twitter="yes" gplus="yes"]
+                            </pre>
+                        </div>
+                         <div class="span6">
+                            <strong>Options</strong>
+                            <ul>
+                                <li><strong>facebook</strong> - set to "yes" to show button </li>
+                                <li><strong>pinit</strong> - set to "yes" to show button</li>
+                                <li><strong>twitter</strong> - set to "yes" to show button</li>
+                                <li><strong>gplus</strong> - set to "yes" to show button</li>
+                         </div>
+                    </div>
+
+                   <div class="page-header"><h3>Basic slider</h3></div>
+                   <div class="row"><div class="span12"><img src="images/basic.png" alt="" style="text-align:center; margin:0px auto; display:block"><br/><br/></div></div>
+                    <div class="row">
+                        <div class="span6">
+                            <pre class="prettyprint html">
+[slider][slide image="http://themes.loc/trizzy/wp-content/uploads/sites/11/2014/07/service.jpg" caption="The New Way To Success"][/slider]
+                            </pre>
+                        </div>
+                         <div class="span6">
+                            <strong>Options</strong>
+                            <ul>
+                                <li><strong>image</strong> - URL to image </li>
+                                <li><strong>caption</strong> - Text to show</li>
+                                <li><strong>url</strong> - URL of the slide</li>
+                         </div>
+                    </div>
+                        <div class="page-header"><h2 id="widgets">Widgets</h2></div>
+                        <div class="row">
+                            <div class="span12">
+                                <ul>
+
+                                    <li>
+                                        <strong>Trizzy MailChimp List Signup</strong><br>
+                                        Works only if you have installed plugin named 'MailChimp Widget'
+                                    </li>
+                                     <li>
+                                        <strong>Trizzy Tabbed Widget</strong><br>
+                                        Show tabs with popular and recent posts and latest comments
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                       </div>
+
+
+
+
+
+
+                        <section id="theme_options">
+                            <div class="page-header"><h3>Theme Options</h3></div>
+                            <p>Options panel is based on amazing <a href="http://wordpress.org/extend/plugins/option-tree/">OptionsTree plugin</a>.</p>
+
+
+                            <h5>Typography</h5>
+                            <p>You can choose from one of 500+ Google fonts. Select font for body and for headers. You can also just choose some nice font for a logo if you prefer to have text logo instead of image.</p>
+
+                            <h5>Sidebars</h5>
+                            <p>All sidebars that you create here will appear both in the Appearance > Widgets, and then you can choose them for specific pages or posts. Please choose a unique title for each sidebar and make it one word.</p>
+                        </section>
+
+
+                        <section id="theme_customizer">
+                            <div class="page-header"><h3>Theme Customizer</h3></div>
+                            <p>Trizzy is using new feature of latest WordPress - Theme Customizer, you'll get there by clicking Appearance - Customize  </p>
+                            <p>It gives you real time preview of changes you made to your site.</p>
+                        </section>
+
+
+
+                            <section id="contact_page">
+                                <div class="page-header"><h3>Contact Page</h3></div>
+                                <p>You should use <a href="http://wordpress.org/extend/plugins/contact-form-7/">contact form 7</a> plugin for contact form.
+                                    After installing it, go to Contact - Add new (or edit current one) and in Form field paste what's below:</p>
+                                    <pre class="prettyprint html">
+
+&lt;fieldset>
+    &lt;div>
+        &lt;label>Name:&lt;/label> [text* your-name]
+    &lt;/div>
+
+    &lt;div>
+        &lt;label >Email: &lt;span>*&lt;/span>&lt;/label>[email* your-email]
+    &lt;/div>
+
+    &lt;div>
+        &lt;label>Message: &lt;span>*&lt;/span>&lt;/label>[textarea your-message]
+    &lt;/div>
+&lt;/fieldset>
+[submit "Send"]
+                                    </pre>
+                                    <p>Than at the top of page you'll see shortcode, for example:
+                                    <pre class="prettyprint html">[contact-form-7 id="503" title="Contact form 1"] </pre>
+                                    Use it on a page you want to have contact form. </p>
+                                    <p>In Theme Options -> Contact Page you can setup map. This map will be displayed on any page with Contact Page Template selected</p> <img src="images/contactpage.png" alt="">
+                                    <br/>
+                                    <div class="row"><div class="span12"><img src="images/mapoptions.png" alt="" style="text-align:center; margin:0px auto; display:block"><br/><br/></div></div>
+                                </section>
+
+
+<section id="translation_and_customization">
+    <div class="page-header"><h3>Translation</h3></div>
+
+                <p>You can learn from <a href="http://codex.wordpress.org/Translating_WordPress">here</a> about Translating theme into your language.</p>
+                <p>The .pot file is in 'trizzy/languages' folder named 'default.pot'.</p>
+                <p>You can use <a href="http://www.poedit.net/">Poedit</a> to translate the .po file. You need to save it in languages folder, and name just the same way your
+                    language is defined in WP config file. Open wp-config.php and check define ('WPLANG', '');<br/> if it's for example fr_FR, save your .po file as fr_FR.po</p>
+
+</section>
+
+
+<section id="simple_page">
+                    <div class="page-header"><h3>Simple Home Page</h3></div>
+                    <p><a href="http://trizzy.purethe.me/simple-homepage/">Here's example of simple page</a> You can create one by selecting page and in Page Attributes choosing Simple Home Page Template.</p>
+                    <p>In Theme Options -> Simple Home Page Options you can configure that page banner, you can set background, title of the box, and put shortcode for Contact Form.</p>
+                    <p>You should use Contact Form 7, example markup for contact form is:</p>
+         <pre class="prettyprint html">
+
+&lt;fieldset>
+    &lt;div>
+        [text* your-name placeholder "Name"]
+    &lt;/div>
+    &lt;div>
+                [email* your-email placeholder "Email"]
+    &lt;/div>
+    &lt;div>
+        [textarea your-message placeholder "Message"]
+    &lt;/div>
+&lt;/fieldset>
+[submit "Send"]
+            </pre>
+
+</section>
+
+                                       <hr />
+
+                                       <div class="goodbye">
+                                        <p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+                                    </div>
+
+                                    <hr />
+
+                                    <footer>
+                                        <p>&copy; Purethemes 2012</p>
+                                    </footer>
+
+                                </div>
+                                <!-- ========================= MAIN CONTAINER >> END ========================= -->
+
+
+                                <!-- CHANGELOG >> START -->
+                                <div class="modal hide fade" id="changelog" tabindex="-1" role="dialog" aria-labelledby="changelog-label" aria-hidden="true">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                        <h3 id="changelog-label">Changelog</h3>
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <!-- Code Block >> Start -->
+
+
+    </div>
+    <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    </div>
+</div>
+<!-- CHANGELOG >> END -->
+
+
+
+<!-- CREDITS >> START -->
+<div class="modal hide fade" id="credits" tabindex="-1" role="dialog" aria-labelledby="credits-label" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="credits-label">Credits</h3>
+    </div>
+    <div class="modal-body">
+        <p>I've used the following images, icons or other files as listed.</p>
+<h3>Credits</h3>
+<ul>
+<li>Photos Used in Live Preview come from http://shutterstock.com, http://www.stocksy.com/, http://thestocks.im/ and they are NOT included in the theme.
+</li><br>
+<li>Resources Used:
+<ul>
+<li><a href="https://github.com/johnpolacek/stacktable.js">Stacktable Responsive Tables</a></li>
+<li><a href="http://jpanelmenu.com/">jPanelMenu Mobile Navigation</a></li>
+<li><a href="https://github.com/roblaplaca/jQuery-Custom-Selectbox">jQuery Custom Selectbox</a></li>
+<li><a href="http://www.woothemes.com/flexslider/">Flexslider</a> (GPLv2 License)</li>
+<li><a href="http://isotope.metafizzy.co/">Isotope</a> (Commercial License) </li>
+<li><a href="http://github.com/marioestrada/jQuery-gMap/"> Google Maps API V3</a> (CC BY-SA 3.0)</li>
+<li><a href="http://dimsemenov.com/plugins/magnific-popup/">Magnific Popup</a></li>
+<li><a href="http://subtlepatterns.com/">SubtlePatterns</a> for Backgrounds</li>
+<li><a href="http://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380">Slider Revolution Responsive WordPress Plugin (18$ Value)</a></li>
+<li><a href="http://codecanyon.net/item/showbiz-pro-responsive-teaser-jquery-plugin/4188435">Showbiz Pro Responsive Teaser JQuery Plugin (11$ Value)</a></li>
+<li><a href="http://codecanyon.net/item/visual-composer-page-builder-for-wordpress/242431">Showbiz
+Visual Composer: Page Builder for WordPress (28$ Value)</a></li>
+<li><a href="http://codecanyon.net/item/royalslider-touchenabled-jquery-image-gallery/461126">RoyalSlider – Touch-Enabled jQuery Image Gallery </a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+</div>
+</div>
+<!-- CREDITS >> END -->
+
+<!-- loading javascripts -->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+<!-- init javascripts -->
+<script src="assets/js/init.js"></script>
+
+</body>
+
+</html>

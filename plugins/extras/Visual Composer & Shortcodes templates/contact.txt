@@ -1,0 +1,8 @@
+[vc_row][vc_column width="1/4"][vc_accordion][vc_accordion_tab title="Informations" icon="file-text"][vc_column_text]Phasellus pellentesque purus in massa aenean in pede phasellus libero ac tellus pellentesque semper.[/vc_column_text][/vc_accordion_tab][vc_accordion_tab title="Address" icon="thumb-tack"][vc_column_text]45 Park Avenue, Apt. 303
+New York, NY 10016[/vc_column_text][/vc_accordion_tab][vc_accordion_tab title="Contact" icon="user"][vc_column_text]
+<ul class="contact-informations second">
+	<li><i class="fa fa-phone"></i>+48 880 440 110</li>
+	<li><i class="fa fa-envelope"></i>mail@example.com</li>
+	<li><i class="fa fa-globe"></i>www.example.com</li>
+</ul>
+[/vc_column_text][/vc_accordion_tab][/vc_accordion][headline margintop="0" marginbottom="25" clearfix="1"]GET SOCIAL[/headline][pt_social_icons][pt_social_icon service="twitter" url="#"][pt_social_icon service="dribbble" url="#"][pt_social_icon service="facebook" url="#"][pt_social_icon service="pinterest" url="#"][pt_social_icon service="twitter" url="#"][/pt_social_icons][/vc_column][vc_column width="3/4"][headline margintop="0" marginbottom="25" clearfix="1"]GET IN TOUCH[/headline][vc_column_text][contact-form-7 id="1644" title="Untitled"][/vc_column_text][/vc_column][/vc_row]
