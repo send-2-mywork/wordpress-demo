@@ -1,0 +1,113 @@
+UN:-rahul.gajbhiye
+Pass:-rahul123
+
+http://192.168.1.39:8080/timesheet/addTimesheet.do
+
+
+email credentials :
+
+rgajbhiye@delaplex.in	
+gajbhiye123
+
+
+Username : rahulgajbhiye.qmcpl
+Password : rahul123_qmcpl             
+Email    : info@qmcpl.com
+
+//** My StackExchange Credential **//
+Username : rgajbhiye@delaplex.in
+Password : Password@123
+
+//** My LinkedIN Credential **//
+Username : rgajbhiye@delaplex.in
+Password : Password@123
+
+//** My Git Credential **//
+Username : send-2-mywork
+Password : rahul123_qmcpl
+
+//** My Git Credential **//
+Username : rgajbhiye@delaplex.in
+Password : rahul123_qmcpl
+
+//** My Docker Credential **//
+Username : rgajbhiye
+Password : admin#1
+
+//** My Mongolab Credential **//
+Username : rgajbhiye
+Password : abc123
+
+//** My Vimeo and VideoWhisper Credential **//
+Username : rgajbhiye@delaplex.in
+Password : rahul123
+
+//** My Portal.FormIO Credential **//
+Username : rgajbhiye@delaplex.in
+Password : 123456
+
+//** My TRMS Credential **//
+Username : rahul.gajbhiye
+Password : Rahul#123
+Temp Password : Rahul#123
+
+//** EDX Mongodb Course Credential **//
+URL : https://courses.edx.org/
+Username : RahulGajbhiye123 or rgajbhiye@delaplex.in
+Password : TimePass
+
+//** masteringmean.com Credential **//
+URL : https://masteringmean.com/
+Username : rgajbhiye@delaplex.in
+Password : Password@123
+
+//** npmjs Credential **//
+URL : https://www.npmjs.com/
+Username : rgajbhiye123
+Password : 123456
+
+//** slideshare Credential **//
+URL : https://www.slideshare.net/
+Username : psdelaplex
+Password : psdelaplex123
+
+//** Udemy Credential **//
+URL : https://www.udemy.com/
+Username : rgajbhiye@delaplex.in
+Password : Admin#1
+
+//** Coursera Credential **//
+URL : https://www.coursera.com/
+Username : rgajbhiye@delaplex.in
+Password : rahul123_qmcpl
+
+
+/********** 235 Server Credentials *********/
+
+Username : Administrator
+Password : Pr1$0nBre@k
+IP Address :27.251.165.235
+
+
+/**** Akash Credential ****/
+
+https://4ctalent.atlassian.net/secure/Dashboard.jspa
+https://4ctalent.slack.com/
+https://bitbucket.org
+
+// For Bitbucket
+UN: akhobragade@delaplex.in
+PW: qmcpl@2000
+
+// For JIRA
+UN: akhobragade@delaplex.in
+PW: qmcpl@2000
+
+// For SLACK
+UN: akhobragade@delaplex.in
+PW: qmcpl@2000
+
+
+
+
+
